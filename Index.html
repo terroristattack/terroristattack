@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terror attack</title>
+</head>
+<body>
+<p align="middle"><span style="color: #ff00003;font-family: 'The wildeast';font-size: 40px;"> THE PROBLEM OF TERRORIST</p></span>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.w3-buttonw3-display-left{
+	position: absolute;
+	top: 55%;
+	left: 2%;
+	height: 50px;
+	width: 50px;
+	z-index: 10;
+	opacity: 0.5;	
+	background-color: grey;
+}
+.w3-buttonw3-display-right{
+	position: absolute;
+	z-index: 10;
+	left: 96%;
+	top: 55%;
+	height: 50px;
+	width: 50px;
+	opacity: 0.5;	
+	background-color: grey;
+}
+</style>
+
+
+<ul>
+  <li><a href="file:///Users/austin/Desktop/IT%20coding/Index.html">Home</a></li>
+  <li><a href="https://www.onefamilytogether.org/">More about Terrorism</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Incidents of terrorism</a>
+    <div class="dropdown-content">
+      <a href="file:///Users/austin/Desktop/IT%20coding/Link%201.html">911 atack</a></a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  
+</ul>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="3357446_9-11.jpg" height="850px"style="width:100%">
+  <img class="mySlides" src="maxresdefault.jpg" height="850px"style="width:100%">
+  <img class="mySlides" src="top-10-terror-attacks-in-india.jpg" height="850px" style="width:100%">
+  <img class="mySlides" src="880x495_414103.jpg" height="850px"style="width:100%">
+
+  <button class="w3-buttonw3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-buttonw3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<p>
+	<b><h2 >Terrorism</h2>
+	<h3>What is terrorism?<h3></b>
+	<table>
+		<tr>
+			<td><h4>Terrorist groups use violence and threats of violence to publicise their causes and as a means to achieve their goals. They often aim to influence or exert pressure on governments and government policies but reject democratic processes, or even democracy itself.</h4></td>
+			<td><img src="What_is_Terorism.jpg" height="500" width="800" align="right"></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+	</table>
+	
+</p>
+</body>
+</html>
+
